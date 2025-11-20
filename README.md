@@ -9,16 +9,23 @@ this is a news app system whic allow admin to create,list,update and add news in
 
 - Nextjs with react
 - Express js
+- mongodb for database
+- multer for images upload
 
 *** how to run ***
 
-open app directory navigate to backend
-- type node main.js
-navigate to frontend run npm run dev
+open project directory
+*** navigate to backend ***
+type `npm install`
+type `node main.js`
+*** navigate to frontend ***
+type `npm install`
+type `npm run dev`
 
 then backend and frontend will run as expected!
-*** backend run on http://localhost:2025***
-*** frontend may run on http://localhost:3000 due to nextjs server***
+
+`backend run on http://localhost:2025`
+`frontend may run on http://localhost:3000 due to nextjs server`
 
 
 ```
