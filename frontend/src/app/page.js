@@ -35,6 +35,7 @@ export default function NewsManagement() {
       const response = await axios.get(`${API_BASE}/categories/all`);
       setCategories(response.data);
     } catch (error) {
+      
       console.error("Error fetching categories:", error);
       alert("Error fetching categories");
     }
