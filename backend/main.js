@@ -6,6 +6,7 @@ const PORT = 2025;
 
 app.use(express.json());
 
+
 app.use('/uploads/images', express.static('upload/images'));
 
 
