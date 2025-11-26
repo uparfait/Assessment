@@ -436,7 +436,7 @@ export default function NewsManagement() {
               </div>
               <div className="flex gap-2 mt-auto">
                 <button
-                  onClick={() => handleEdit(item)}
+                  onClick={() =>{ handleEdit(item);     setActivePage("articles"); }}
                   className="flex-1 px-3 py-2 border border-black text-black rounded hover:bg-gray-100 text-sm"
                 >
                   Edit
